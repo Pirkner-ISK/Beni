@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsere Leistungen - Hausmeisterservice Schwoich</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            font-weight: 700;
+            font-size: 1.1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+            list-style: disc inside;
+        }
+
+        address {
+            font-style: normal;
+            color: #777;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            width: 100%;
+            clear: both;
+        }
+
+        .leistungen-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .leistung {
+            flex-basis: 30%;
+            margin: 1em;
+        }
+
+        .leistung img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hausmeisterservice Schwoich</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Startseite</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <section id="leistungen">
+        <h2>Unsere Leistungen</h2>
+        <div class="leistungen-container">
+            <div class="leistung">
+                <img src="indian-worker-865664_1280.jpg" alt="Gartenpflege">
+                <h3>Gartenpflege</h3>
+                <p>Wir kümmern uns um Ihren Garten, damit er immer gepflegt aussieht.</p>
+            </div>
+
+            <div class="leistung">
+                <img src="snow-3065350_1280.jpg" alt="Winterdienst">
+                <h3>Winterdienst</h3>
+                <p>Unsere professionelle Winterdienstleistung sorgt für sichere Wege und Eingänge.</p>
+            </div>
+
+            <div class="leistung">
+                <img src="workers-6477163_1280.jpg" alt="Reinigungsdienste">
+                <h3>Reinigungsdienste</h3>
+                <p>Von Büroreinigung bis zur Wohnungsreinigung – wir garantieren Sauberkeit.</p>
+            </div>
+
+            <div class="leistung">
+                <img src="tool-3213926_1280.jpg" alt="Haustechnik">
+                <h3>Haustechnik</h3>
+                <p>Unsere Experten kümmern sich um die technischen Belange Ihres Hauses.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Hausmeisterservice Schwoich. Alle Rechte vorbehalten.
+    </footer>
+</body>
+</html>
