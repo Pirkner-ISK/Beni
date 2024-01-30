@@ -51,12 +51,12 @@
         }
 
         ul {
-            list-style-type: none;
             padding: 0;
         }
 
         li {
             margin-bottom: 0.5em;
+            list-style: disc inside;
         }
 
         address {
@@ -69,9 +69,9 @@
             color: #fff;
             text-align: center;
             padding: 1em;
-            position: absolute;
-            bottom: 0;
+            position: relative; /* Änderung des Positionstyps auf relative */
             width: 100%;
+            clear: both; /* Klären Sie float-Eigenschaften */
         }
     </style>
 </head>
@@ -86,8 +86,8 @@
     </nav>
 
     <section>
-        <h2>Willkommen beim Hausmeisterservice in Schwoich</h2>
-        <p>Wir bieten professionelle Hausmeisterdienste für Privat- und Geschäftskunden in Schwoich und Umgebung.</p>
+        <h2>Willkommen beim professionellen Hausmeisterservice in Schwoich</h2>
+        <p>Wir bieten hochwertige, schnelle und professionelle Hausmeisterdienste für Privat- und Geschäftskunden in Schwoich und Umgebung.</p>
     </section>
 
     <section id="leistungen">
