@@ -15,41 +15,40 @@
       border-radius: 15px;
       box-shadow: 0 9px #999;
     }
-    
-    .button:hover {background-color: #3e8e41}
-    
+
+    .button:hover {
+      background-color: #3e8e41
+    }
+
     .button:active {
       background-color: #3e8e41;
       box-shadow: 0 5px #666;
       transform: translateY(4px);
     }
-    </style>
-<style>
-  .button {
-    padding: 15px 25px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #04AA6D;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
-  
-  .button:hover {background-color: #3e8e41}
-  
-  .button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-  </style>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Walthu</title>
-  <style>
+
+    .button {
+      padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #04AA6D;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+    }
+
+    .button:hover {
+      background-color: #3e8e41
+    }
+
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+
     body {
       background: linear-gradient(45deg, yellow, violet);
       height: 100vh;
@@ -62,30 +61,39 @@
       /* Text color */
     }
 
+
     h1 {
       font-size: 3em;
       letter-spacing: 3px;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
   </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walthu</title>
+
+
 </head>
 
-<body>
+<body id="body">
   <div>
     <h1>This is a Website about Walther White!</h1>
     <p>This is a Website programmed to my dearest Chemist in the world - Heisenbergum.</p>
   </div>
-</body>
-<a href="test.html">Link to test </a>
-<img src="Walthu.jpg" width="500px">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eofMSBjC-a4?si=u9_EOBX2BBYp8orE"
-  title="YouTube video player" frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen></iframe>
+  <input type="text" id="Colour1">
+  <input type="text" id="Colour2">
+
+  <h1>Outline Buttons</h1>
+
+  <button class="btn success"
+    onclick="document.getElementById('body').style = 'background: linear-gradient(45deg, '+document.getElementById('Colour1').value+', '+document.getElementById('Colour2').value+')';">Success</button>
+  <a href="test.html">Link to test </a>
+  <img src="Walthu.jpg" width="500px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eofMSBjC-a4?si=u9_EOBX2BBYp8orE"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
 
 </body>
 
 </html>
-
-
-
